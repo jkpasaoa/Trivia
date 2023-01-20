@@ -75,3 +75,45 @@ body {
     background-color: #EAF0F6;
     opacity: 87%;
   }
+
+  /* for large desktops, laptops */
+@media (max-width: 1200px) {
+    body {
+        background-image: url('https://raw.githubusercontent.com/jkpasaoa/images/main/questions.jpg');
+        background-color: #14396A;
+        width: auto;
+        height: auto;
+        background-size: 55%;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+}
+
+/* for regular sized desktops, laptops */
+@media (max-width: 992px) {
+    body {
+        background-image: url('https://raw.githubusercontent.com/jkpasaoa/images/main/questions.jpg');
+        background-color: #14396A;
+        width: auto;
+        height: auto;
+        background-size: 55%;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+}
+
+/* for medium devices - tablets */
+@media (max-width: 768px) {
+    body {
+        background-image: url('https://raw.githubusercontent.com/jkpasaoa/images/main/questions.jpg');
+        background-color: #14396A;
+        width: auto;
+        height: auto;
+        background-size: 55%;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+}
