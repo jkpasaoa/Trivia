@@ -10,7 +10,8 @@ function submitCheck(e) {
     } else {
         const playerNameInput = String(document.getElementById("playerNameInput").value);
         console.log(playerNameInput)
-        // navigate the window location to the next html adding the nameInput as query parameter to the end of the url
+        return window.location.href = "questions.html";
+    // navigate the window location to the next html adding the nameInput as query parameter to the end of the url
     }
 }
 
