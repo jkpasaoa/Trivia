@@ -1,6 +1,7 @@
 //create variables for questions and answer
 let question;
 let answer;
+let category;
 
 // define username with searchParams to get nameInput from url
 // Make Hello <username> element to show on page --> It is visible on index.html
@@ -22,6 +23,13 @@ function getQuestion() {
 
             answer = data.results[0].correct_answer;
             console.log(answer)
+
+            category = data.results[0].category;
+            console.log(category)
+
+            //shows category of the question
+            let categoryDiv = document.querySelector("#category")
+            categoryDiv.textContent = `${category}`
 
             // let correctAnswer = data.results[0].correct_answer
             //grab from html where question is placed in the page, use div
