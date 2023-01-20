@@ -70,6 +70,7 @@ aside {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 27px;
+    position: relative;
 }
 
 #getAnswerButton {
