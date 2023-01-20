@@ -1,10 +1,11 @@
 //create variables for questions and answer
 let question;
 let answer;
-let username;
 
 // define username with searchParams to get nameInput from url
-// Make Hello <username> element to show on page
+// Make Hello <username> element to show on page --> It is visible on index.html
+
+//show category automatically on page
 
 //create function for fetch
 function getQuestion() {

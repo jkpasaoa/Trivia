@@ -19,4 +19,5 @@ const playerNameForm = document.querySelector("#playerNameForm")
 playerNameForm.addEventListener('submit', function(event) {
     event.preventDefault();
     submitCheck(event);
+
 });

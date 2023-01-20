@@ -12,6 +12,11 @@
     <div class="header">
     <h2 id="heading">Let's Play !</h2>
     </div>
+    <aside>Welcome <span id="result"></span>
+    <script>
+        document.getElementById("result").innerHTML=localStorage.getItem("textvalue");
+    </script>
+    </aside>
     <div id="game"></div>
     <div class ="container">
         <button id="getQuestionButton" class="testbutton">Give Me a Question</button>

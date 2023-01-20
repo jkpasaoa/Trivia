@@ -11,7 +11,7 @@ h1.first-header {
 
 
 body {
-    background-image: url('https://raw.githubusercontent.com/jkpasaoa/images/main/question.jpg');
+    background-image: url('https://raw.githubusercontent.com/jkpasaoa/images/main/trivia%20pic.jpg');
     width: auto;
     height: auto;
     background-size: cover;
@@ -24,7 +24,7 @@ body {
 /* for large desktops, laptops */
 @media (max-width: 1200px) {
     body {
-    background-image: url('https://raw.githubusercontent.com/jkpasaoa/images/main/question.jpg');
+    background-image: url('https://raw.githubusercontent.com/jkpasaoa/images/main/trivia%20pic.jpg');
     width: auto;
     height: auto;
     background-size: cover;
@@ -34,7 +34,7 @@ body {
   /* for regular sized desktops, laptops */
   @media (max-width: 992px) {
     body {
-    background-image: url('https://raw.githubusercontent.com/jkpasaoa/images/main/question.jpg');
+    background-image: url('https://raw.githubusercontent.com/jkpasaoa/images/main/trivia%20pic.jpg');
     width: auto;
     height: auto;
     background-size: cover;
@@ -44,7 +44,7 @@ body {
   /* for medium devices - tablets */
   @media (max-width: 768px) {
     body {
-    background-image: url('https://raw.githubusercontent.com/jkpasaoa/images/main/question.jpg');
+    background-image: url('https://raw.githubusercontent.com/jkpasaoa/images/main/trivia%20pic.jpg');
     width: auto;
     height: auto;
     background-size: cover;

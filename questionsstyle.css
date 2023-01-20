@@ -12,6 +12,16 @@ body {
     background-repeat: no-repeat;
 }
 
+aside {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    background-image: linear-gradient(to right,#D35400, #660033);
+    top: 50px;
+    left: 50px;
+    color: #F7F9F9;
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(1, 3fr);
@@ -28,6 +38,7 @@ body {
    background-color: #14396A;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    color: #F5B041 ;
+   font-size: 25px;
 }
 
 

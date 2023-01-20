@@ -4,24 +4,30 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./style.css"/>
+        <link rel="stylesheet" href="./style.css"/><head>
         <script defer src="main.js"></script>
         <title>Trivia</title>
   </head>
   <body>
     <header>
-      <h1 class="first-header">Do you want to play a game?</h1>
+      <h1 class="first-header">All Around Trivia</h1>
     </header>
     <section>
       <div id="setPlayerName"></div>
-        <form id="playerNameForm" action="questions.html">
+        <form action="questions.html" id="playerNameForm" >
           <label>Name:</label>
-          <input id="playerNameInput" name="playerForm" type="text" placeholder="Enter player name"/>
-          <input type="submit" value="Play"></input>
+          <input id="playerNameInput" name="playerForm" type="text" placeholder="Enter player name" />
+          <input type="submit" value="Play" onclick="storePlayerInput()"></input>
         </form>
       </div>
-
-        
+      <script>
+      function storePlayerInput()
+      {
+        const playersName=document.getElementById("playerNameInput").value;
+        localStorage.setItem("textvalue",playersName);
+        return false;
+      }
+        </script>
 </section>
 </body>
 </html>
