@@ -15,6 +15,7 @@ function getQuestion() {
         .then(response => response.json())
         .then(data => {
                 console.log(data)
+                
 
              //change variables for question and answer after fetch
             //question from fetch

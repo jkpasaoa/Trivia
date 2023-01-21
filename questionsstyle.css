@@ -140,3 +140,18 @@ aside {
         background-repeat: no-repeat;
     }
 }
+
+/* 
+Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    body {
+        background-image: url('https://raw.githubusercontent.com/jkpasaoa/images/main/chess%20background.jpg');
+        background-color: #14396A;
+        width: auto;
+        height: auto;
+        background-size: 100%;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        }
+  }

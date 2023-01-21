@@ -18,8 +18,17 @@ body {
     background-attachment: fixed;
 }
 
-/* // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... } */
+/* 
+Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  body {
+    background-image: url('https://raw.githubusercontent.com/jkpasaoa/images/main/trivia%20pic.jpg');
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+      }
+}
 
 /* for large desktops, laptops */
 @media (max-width: 1200px) {
