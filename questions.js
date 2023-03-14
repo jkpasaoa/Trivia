@@ -23,7 +23,7 @@ function getQuestion() {
              //change variables for question and answer after fetch
             //question from fetch
             question = data.results[0].question;
-            question = question.replace(/&quot;/g, '"').replace(/&#039;/g, "'");
+            question = question.replace(/&quot;/g, '"').replace(/&#039;/g, "'").replace(/&uuml;/g, 'ü');
             console.log(question);
             
             //answer from fetch //let correctAnswer = data.results[0].correct_answer
