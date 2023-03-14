@@ -8,6 +8,9 @@ let category;
 
 //create function for fetch
 function getQuestion() {
+    const answerContainer = document.querySelector('#answerContainer');
+    answerContainer.textContent = '';
+
     const base_URL = "https://opentdb.com/api.php";
     const url = `${base_URL}?amount=1&difficulty=hard`;
     console.log(url)
@@ -48,6 +51,7 @@ function getQuestion() {
 }
 
     // action after clicking the question button
+    const getQuestionButton = document.querySelector('#getQuestionButton');
     getQuestionButton.addEventListener("click", (event)=> {
     event.preventDefault(event);
     //console.log('getQuestion ran')
@@ -56,6 +60,7 @@ function getQuestion() {
 })
 
      //action after clicking the answer button
+     const getAnswerButton = document.querySelector('#getAnswerButton');
      getAnswerButton.addEventListener("click", (event) => {
         event.preventDefault();
         console.log(answer)
@@ -64,6 +69,7 @@ function getQuestion() {
         answerDiv.textContent = `${answer}`
     
 });
+
 
 //question loads immediately when user first arrives on page
 question.onreadystatechange = getQuestion() 
@@ -75,6 +81,7 @@ question.onreadystatechange = getQuestion()
 		document.querySelector("body").style.visibility = "visible";
 	};
 
+ 
     // const resetButton = document.querySelector("section");
     // resetButton.addEventListener("click", (event) => {
     //     event.reset();
