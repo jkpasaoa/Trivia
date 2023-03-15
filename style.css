@@ -12,40 +12,49 @@ body {
   background-attachment: fixed;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-section {
-  width: 40%;
-  font-size: 1.5em;
-  margin-left: 30%;
-}
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-section {
-  width: 30%;
-  font-size: 1.75em;
-  margin-left: 35%;
-}
+/* Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  section {
+    width: 90%;
+    font-size: 1.2em;
+    margin-left: 5%;
+  }
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-section {
-  width: 25%;
-  font-size: 2em;
-  margin-left: 37.5%;
-  max-width: 400px;
+/* Small devices (landscape phones, 576px to 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  section {
+    width: 60%;
+    font-size: 1.5em;
+    margin-left: 20%;
+  }
 }
+
+/* Medium devices (tablets, 768px to 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section {
+    width: 40%;
+    font-size: 1.75em;
+    margin-left: 30%;
+  }
+}
+
+/* Large devices (desktops, 992px to 1199.98px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  section {
+    width: 30%;
+    font-size: 2em;
+    margin-left: 35%;
+    max-width: 400px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-section {
-  width: 20%;
-  font-size: 2.15em;
-  margin-left: 40%;
-  max-width: 450px;
-}
+  section {
+    width: 25%;
+    font-size: 2.15em;
+    margin-left: 37.5%;
+    max-width: 450px;
+  }
 }
